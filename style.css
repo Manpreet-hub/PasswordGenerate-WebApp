@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 135, 199);
+}
+.container{
+    background-color: rgb(179, 92, 179);
+    color: black;
+    margin: auto;
+    margin-top: 12rem;
+    font-size: 1.2rem;
+    width: 40%;
+    border: 0.1rem solid;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pw{
+    background-color: rebeccapurple;
+    height:70px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    overflow: auto;
+    
+}
+
+.pw button {
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+.form-control{
+    padding: 0.3rem;
+}
+.generate{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid;
+    cursor: pointer;
+    background-color: yellow;
+    color: rebeccapurple;
+    font-weight: bold;
+}
